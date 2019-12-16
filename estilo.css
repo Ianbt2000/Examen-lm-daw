@@ -1,0 +1,398 @@
+/* estilo*/
+
+
+body{
+    
+    width: 90%;
+    height: 100%;
+    background-color: pink;
+    padding: 0px;
+   
+
+}
+
+/*header*/
+
+header { 
+    
+    padding: 0px;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-image: url(imagenes/header.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 30%;
+    background-position: center;
+    
+
+
+}
+
+#menu {
+
+    padding: 0px;
+    list-style: none;
+    /*oculto hasta que funcione*/
+    display: none;
+
+
+
+
+}
+
+#titulo {
+
+    /*font-family: 'Electrolize';*/
+    position: relative;
+    top: 37%;
+    left: 4%;
+    font-size: 0.8em;
+    color: white;
+    border: black;
+
+
+
+}
+
+/*cuerpo*/
+
+
+main {
+
+    padding: 0px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 100%;
+    height: 90%;
+    background-color: rgb(206, 194, 194);
+   
+
+
+
+    
+}
+
+#titulo2 {
+    margin: 10px;
+    text-align: center; 
+    color: rgb(228, 113, 132);
+
+}
+
+#texto {
+
+    margin: 10px;
+    text-align: left; 
+    color: black
+
+
+}
+
+#imagen1 {
+
+    display: inline-block;
+    background-image: url(imagenes/mano.jpg);
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+    
+    width: 20%;
+    height: 20%;
+    margin: 2%;
+
+}
+#imagen2 {
+    display: inline-block;
+    background-image: url(imagenes/medicina.jpg);
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+    
+    width: 20%;
+    height: 20%;
+    margin: 2%;
+
+}#imagen3 {
+    display: inline-block;
+    background-image: url(imagenes/mercado.jpg);
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+    width: 20%;
+    height: 20%;
+    margin: 2%;
+
+}#imagen4 {
+    display: inline-block;
+    background-image: url(imagenes/reno.jpg);
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+    width: 20%;
+    height: 20%;
+    margin: 2%;
+
+}
+
+
+
+/*footer*/
+footer {
+
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 100%;
+    height: 10%;
+    background-color: rgb(62, 149, 189);
+    padding: 0px;
+
+    
+
+
+}
+
+#pie {
+
+    padding: 0px;
+    text-size-adjust: 1em;
+    text-align: center;
+    color: white;
+
+}
+
+/*snippets*/
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+
+
+
+/*
+@font-face {
+    font-family: 'Electrolize';
+    font-weight: 300;
+    src: local('Electrolize'),
+    url(file.ttf) format(truetype);
+}
+*/
+
+
+
+/*media responsive telefono*/
+
+@media screen and (max-width:501px) {
+
+    body {
+    
+        margin: 2px 2px;
+        width: 100%;
+        height: 100%;
+        background-color: pink;
+    
+    }
+
+
+    header{
+        
+        position: relative;
+        margin-left: 1%;
+        margin-right: 1%;
+        background-image: url(imagenes/header2.png);
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+    }
+    main {
+
+    
+        margin-left: 1%;
+        margin-right: 1%;
+        width: 100%;
+        height: 90%;
+        background-color: rgb(206, 194, 194);
+    
+    
+    
+        
+    }
+
+    footer {
+
+   
+        margin-left: 1%;
+        margin-right: 1%;
+    
+        width: 100%;
+        height: 10%;
+        background-color: rgb(62, 149, 189);
+    
+    
+    
+    }
+    #titulo {
+        text-align: center;
+        top: 80%;
+    } 
+    #imagen1 {
+
+        display: inline-flex;
+        background-image: url(imagenes/mano.jpg);
+        position: relative;
+        background-size: contain;
+        background-repeat: no-repeat;
+        
+        
+        width: 20%;
+        height: 20%;
+        margin: 2%;
+    
+    }
+    #imagen2 {
+        display: inline-flex;
+        background-image: url(imagenes/medicina.jpg);
+        position: relative;
+        background-size: contain;
+        background-repeat: no-repeat;
+        
+        
+        width: 20%;
+        height: 20%;
+        margin: 2%;
+    
+    }#imagen3 {
+        display: inline-flex;
+        background-image: url(imagenes/mercado.jpg);
+        position: relative;
+        background-size: contain;
+        background-repeat: no-repeat;
+        
+        width: 20%;
+        height: 20%;
+        margin: 2%;
+    
+    }#imagen4 {
+        display: inline-flex;
+        background-image: url(imagenes/reno.jpg);
+        position: relative;
+        background-size: contain;
+        background-repeat: no-repeat;
+        
+        width: 20%;
+        height: 20%;
+        margin: 2%;
+    
+    }
+}
+/*media responsive tablet*/
+    
+    @media screen and (max-width:800px) and (min-width:500px) {
+
+        body {
+        
+            margin: 2px 2px;
+            width: 100%;
+            height: 100%;
+            background-color: pink;
+        
+        }
+
+        #h1{
+
+            position: relative;
+             top: 37%;
+             left: 4%;
+             font-size: 0.6em;   
+             color: white;
+             border: black;
+
+
+        }
+    
+    
+        header{
+            
+            margin-left: 1%;
+            margin-right: 1%;
+            background-image: url(imagenes/header.jpg);
+            width: 100%;
+            height: 40%;
+            background-size: cover;
+            background-position-x: right;
+        
+        }
+        main {
+    
+        
+            margin-left: 1%;
+            margin-right: 1%;
+            width: 100%;
+            height: 90%;
+            background-color: rgb(206, 194, 194);
+    
+        
+        
+        
+            
+        }
+    
+        footer {
+    
+       
+            margin-left: 1%;
+            margin-right: 1%;
+        
+            width: 100%;
+            height: 10%;
+            background-color: rgb(62, 149, 189);
+        
+        
+        
+        }
+        
+        
+}
